@@ -42,4 +42,14 @@ def recognize_from_microphone():
 
 
 st.title("Speech to Text")
+# def start_recognition():
+#     recognize_thread = Thread(target=recognize_from_microphone)
+#     recognize_thread.daemon = True
+#     recognize_thread.start()
 recognize_from_microphone()
+
+# st.title("Speech to Text")
+# if __name__ == "__main__":
+#     start_recognition()  # Start the speech recognition thread
+#     st.write("Listening...")  # Show the user that we're listening
+#     st.write(output)
